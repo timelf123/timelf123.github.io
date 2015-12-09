@@ -1,0 +1,11 @@
+# How to send analytics from Angular to Snowplow
+:hp-tags: Analytics, Open Source, AngularJS, Development, Angulartics
+
+A few days ago I released link:https://github.com/angulartics/angulartics-snowplow[angulartics-snowplow], an link:https://github.com/angulartics/angulartics[Angulartics] plugin to support link:http://snowplowanalytics.com/[Snowplow Analytics] pageview and structured event tracking.
+
+I don't have an active Snowplow instance right now, but since the planned Segment->Snowplow integration has been on hold for a while, I thought I'd attempt an integration with Angulartics. If you use Snowplow Analytics we could use some help testing this integration.
+
+There are some things left to do to flesh this out further (PRs welcomed!)
+
+	* link:https://github.com/angulartics/angulartics-snowplow/issues/1[Support custom tracking namespaces]
+    * link:https://github.com/angulartics/angulartics-snowplow/issues/2[Add unstructured event tracking]

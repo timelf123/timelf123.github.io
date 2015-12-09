@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "timelf123",
-    "repositoryName": "timelf123.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"timelf123","repositoryName":"timelf123.github.io","branch":"master","cname":"timelfelt.com"},"site":{"title":"Tim Elfelt - Digital Marketer / Developer ","description":"Personal portfolio/blog of Tim Elfelt","url":"http://timelfelt.com"},"socialnetwork":{"email":"timelf123@gmail.com","twitter":"timelf123","github":"timelf123"},"theme":{"name":"Casper","url":"//timelf123.github.io/themes/Casper"}}

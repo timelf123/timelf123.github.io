@@ -1,0 +1,16 @@
+# Angulartics 1.0.0 released
+:hp-tags: Analytics, Open Source, AngularJS, Development, Angulartics
+
+link:https://github.com/angulartics/angulartics[Angulartics] version 1.0.0 was released today. Angulartics has been stable for some time, but today we embrace the 1.0.0 tag. Happy tracking!
+
+Changes for 1.0.0:
+
+- Added devDependency badge
+  - Updated all dev deps and fixed karma tests
+- Added userTimings to the known handlers
+- Refactoring - use toddmotto angular styleguide and avoid anonymous functions
+- Hubspot - add register user properties
+- Marketo - fix known user identification (typo)
+- fix - default analytics-on eventType is 'click' link:https://github.com/angulartics/angulartics/issues/402[#402]
+- fix - remove vendor scripts from main field of bower.json link:https://github.com/angulartics/angulartics/issues/377[#377] link:https://github.com/angulartics/angulartics/issues/285[#285]
+

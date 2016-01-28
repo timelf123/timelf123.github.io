@@ -1,0 +1,12 @@
+# Angulartics rewrite with Angular 2 support
+
+:hp-tags: Analytics, Open Source, AngularJS, Development, Angulartics
+
+Thanks to the hard work of João Ribeiro link:https://github.com/JonnyBGod/[(JonnyBGod)],  link:https://github.com/angulartics/angulartics2[Angulartics2] was released yesterday, with full support for Angular 2 apps, including auto route tracking and the `analytics-on` directive.
+
+Quick feature overview:
+
+- adopts angular2's EventEmitter (an observable)
+- each "knownHandlers" is now an event emitter that modules can subscribe to and emit to different approach with RxJs
+- now all handlers are ReplaySubjects
+- includes 4 of the top providers - Google Analytics, Kissmetrics, Mixpanel and Segment

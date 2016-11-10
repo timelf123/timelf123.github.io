@@ -1,0 +1,7 @@
+# Angulartics rewrite with Angular 2 support
+
+:hp-tags: Startup, Milwaukee
+
+Thanks to the hard work of Matt Cordio & Ed Javier at link:http://startupmke.org/[Startup Milwaukee], in coordination with many in the Milwaukee community, the first Startup Milwaukee event was a great success, with over 2600 people attending  throughout the week. Not a bad turnout for the the first ever Startup Milwaukee event in a city that often gets a bad rap when it comes to entrepreneurship and startups.
+
+It was pretty cool to be able to help link:https://ideawake.com[Ideawake Milwaukee] with our 6 company, multi startup interviewing event. We'd like to thank the helpful Milwaukee business people who were interested in furthering the startup community.

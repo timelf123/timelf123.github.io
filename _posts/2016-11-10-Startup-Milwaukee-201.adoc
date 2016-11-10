@@ -1,4 +1,4 @@
-# Angulartics rewrite with Angular 2 support
+# Startup Milwaukee 201
 
 :hp-tags: Startup, Milwaukee
 

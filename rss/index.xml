@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Tim Elfelt - Digital Marketer / Developer ]]></title><description><![CDATA[I hack on https://ideawake.com, Angulartics, and other projects. In another life I was an affiliate marketer / SEO ninja.]]></description><link>http://timelfelt.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 10 Nov 2016 20:19:39 GMT</lastBuildDate><atom:link href="http://timelfelt.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Angulartics rewrite with Angular 2 support]]></title><description><![CDATA[<div class="paragraph">
+<p>Thanks to the hard work of João Ribeiro <a href="https://github.com/JonnyBGod/">(JonnyBGod)</a>,  <a href="https://github.com/angulartics/angulartics2">Angulartics2</a> was released yesterday, with full support for Angular 2 apps, including auto route tracking and the <code>analytics-on</code> directive.</p>
+</div>
+<div class="paragraph">
+<p>Quick feature overview:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>adopts angular2&#8217;s EventEmitter (an observable)</p>
+</li>
+<li>
+<p>each "knownHandlers" is now an event emitter that modules can subscribe to and emit to different approach with RxJs</p>
+</li>
+<li>
+<p>now all handlers are ReplaySubjects</p>
+</li>
+<li>
+<p>includes 4 of the top providers - Google Analytics, Kissmetrics, Mixpanel and Segment</p>
+</li>
+</ul>
+</div>]]></description><link>http://timelfelt.com/2016/01/28/Angulartics-rewrite-with-Angular-2-support.html</link><guid isPermaLink="true">http://timelfelt.com/2016/01/28/Angulartics-rewrite-with-Angular-2-support.html</guid><category><![CDATA[Analytics]]></category><category><![CDATA[ Open Source]]></category><category><![CDATA[ AngularJS]]></category><category><![CDATA[ Development]]></category><category><![CDATA[ Angulartics]]></category><dc:creator><![CDATA[Tim Elfelt]]></dc:creator><pubDate>Thu, 28 Jan 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Angulartics 1.0.0 released]]></title><description><![CDATA[<div class="paragraph">
+<p><a href="https://github.com/angulartics/angulartics">Angulartics</a> version 1.0.0 was released today. Angulartics has been stable for some time, but today we embrace the 1.0.0 tag. Happy tracking!</p>
+</div>
+<div class="paragraph">
+<p>Changes for 1.0.0:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Added devDependency badge</p>
+</li>
+<li>
+<p>Updated all dev deps and fixed karma tests</p>
+</li>
+<li>
+<p>Added userTimings to the known handlers</p>
+</li>
+<li>
+<p>Refactoring - use toddmotto angular styleguide and avoid anonymous functions</p>
+</li>
+<li>
+<p>Hubspot - add register user properties</p>
+</li>
+<li>
+<p>Marketo - fix known user identification (typo)</p>
+</li>
+<li>
+<p>fix - default analytics-on eventType is 'click' <a href="https://github.com/angulartics/angulartics/issues/402">#402</a></p>
+</li>
+<li>
+<p>fix - remove vendor scripts from main field of bower.json <a href="https://github.com/angulartics/angulartics/issues/377">#377</a> <a href="https://github.com/angulartics/angulartics/issues/285">#285</a></p>
+</li>
+</ul>
+</div>]]></description><link>http://timelfelt.com/2015/12/28/Angulartics-100-released.html</link><guid isPermaLink="true">http://timelfelt.com/2015/12/28/Angulartics-100-released.html</guid><category><![CDATA[Analytics]]></category><category><![CDATA[ Open Source]]></category><category><![CDATA[ AngularJS]]></category><category><![CDATA[ Development]]></category><category><![CDATA[ Angulartics]]></category><dc:creator><![CDATA[Tim Elfelt]]></dc:creator><pubDate>Mon, 28 Dec 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[How to send analytics from Angular to Snowplow]]></title><description><![CDATA[<div class="paragraph">
+<p>A few days ago I released <a href="https://github.com/angulartics/angulartics-snowplow">angulartics-snowplow</a>, an <a href="https://github.com/angulartics/angulartics">Angulartics</a> plugin to support <a href="http://snowplowanalytics.com/">Snowplow Analytics</a> pageview and structured event tracking.</p>
+</div>
+<div class="paragraph">
+<p>I don&#8217;t have an active Snowplow instance right now, but since the planned Segment&#8594;Snowplow integration has been on hold for a while, I thought I&#8217;d attempt an integration with Angulartics. If you use Snowplow Analytics we could use some help testing this integration.</p>
+</div>
+<div class="paragraph">
+<p>There are some things left to do to flesh this out further (PRs welcomed!)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/angulartics/angulartics-snowplow/issues/1">Support custom tracking namespaces</a></p>
+</li>
+<li>
+<p><a href="https://github.com/angulartics/angulartics-snowplow/issues/2">Add unstructured event tracking</a></p>
+</li>
+</ul>
+</div>]]></description><link>http://timelfelt.com/2015/12/09/How-to-send-analytics-from-Angular-to-Snowplow.html</link><guid isPermaLink="true">http://timelfelt.com/2015/12/09/How-to-send-analytics-from-Angular-to-Snowplow.html</guid><category><![CDATA[Analytics]]></category><category><![CDATA[ Open Source]]></category><category><![CDATA[ AngularJS]]></category><category><![CDATA[ Development]]></category><category><![CDATA[ Angulartics]]></category><dc:creator><![CDATA[Tim Elfelt]]></dc:creator><pubDate>Wed, 09 Dec 2015 00:00:00 GMT</pubDate></item></channel></rss>

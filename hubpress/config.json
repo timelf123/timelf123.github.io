@@ -20,5 +20,21 @@
   },
   "theme": {
     "name": "uno"
+  },
+  "urls": {
+    "site": "http://timelfelt.com",
+    "hubpress": "http://timelfelt.com",
+    "theme": "//timelfelt.com/themes/uno",
+    "images": "http://timelfelt.com/images"
+  },
+  "initialisationConfigComponent": {
+    "name": "initialise-configuration",
+    "computed": {},
+    "methods": {},
+    "staticRenderFns": [
+      null,
+      null,
+      null
+    ]
   }
 }
